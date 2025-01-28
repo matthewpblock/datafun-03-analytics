@@ -92,7 +92,7 @@ def main():
     """
     json_url = 'http://api.open-notify.org/astros.json'
     logger.info("Starting JSON fetch demonstration...")
-    fetch_json_file(fetched_folder_name, "astros.json", json_url)
+    fetch_json_file("data", "players.json", "https://raw.githubusercontent.com/nathanbraun/code-basketball-files/refs/heads/main/data/json/players.json")
 
 #####################################
 # Conditional Execution

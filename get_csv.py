@@ -91,7 +91,7 @@ def main():
     """
     csv_url = 'https://raw.githubusercontent.com/MainakRepositor/Datasets/master/World%20Happiness%20Data/2020.csv'
     logger.info("Starting CSV fetch demonstration...")
-    fetch_csv_file(fetched_folder_name, "2020_happiness.csv", csv_url)
+    fetch_csv_file("data", "shots_raw.csv", "https://raw.githubusercontent.com/nathanbraun/code-basketball-files/c2ed77666b3a17ccb33d895e0f0c48692f8aa64f/data/shots.csv")
 
 #####################################
 # Conditional Execution

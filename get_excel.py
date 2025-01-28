@@ -91,7 +91,7 @@ def main():
     """
     excel_url = 'https://raw.githubusercontent.com/denisecase/datafun-03-analytics/main/hosted/Feedback.xlsx'
     logger.info("Starting Excel fetch demonstration...")
-    fetch_excel_file(fetched_folder_name, "feedback.xlsx", excel_url)
+    fetch_excel_file("data", "sample_data.xls", "https://onlinetestcase.com/wp-content/uploads/2023/06/500-kb-xls.xls")
 
 #####################################
 # Conditional Execution
