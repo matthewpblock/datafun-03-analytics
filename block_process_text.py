@@ -1,5 +1,5 @@
 """
-Process an Excel file to count occurrences of a specific word in a column.
+Process an text file to count occurrences each part of speech in the text.
 
 """
 
