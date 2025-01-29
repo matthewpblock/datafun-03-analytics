@@ -1,9 +1,6 @@
 """
 This example file fetches a CSV file from the web 
-and saves it to a local file named 2020_happiness.csv in a folder named example_data.
-
-Please save a copy of the provided utils_logger.py file 
-in the same folder as this file.
+and saves it to a local file named shots_raw.csv in a folder named example_data.
 """
 
 #####################################
@@ -23,7 +20,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-fetched_folder_name = "example_data"
+fetched_folder_name = "data"
 
 #####################################
 # Define Functions
@@ -89,7 +86,6 @@ def main():
     """
     Main function to demonstrate fetching CSV data.
     """
-    csv_url = 'https://raw.githubusercontent.com/MainakRepositor/Datasets/master/World%20Happiness%20Data/2020.csv'
     logger.info("Starting CSV fetch demonstration...")
     fetch_csv_file("data", "shots_raw.csv", "https://raw.githubusercontent.com/nathanbraun/code-basketball-files/c2ed77666b3a17ccb33d895e0f0c48692f8aa64f/data/shots.csv")
 
