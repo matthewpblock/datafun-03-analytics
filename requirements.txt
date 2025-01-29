@@ -198,3 +198,6 @@ seaborn
 # ======================================================
 requests
 gdown
+pandas
+spacy
+openpyxl
