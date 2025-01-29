@@ -56,7 +56,13 @@ def analyze_fadeaways():
     # Sort the result DataFrame by fadeaway_count in descending order
     result_df = result_df.sort_values(by='fadeaway_count', ascending=False)
     
+        # Export the result DataFrame to a CSV file
+    outfile = Path(__file__).parent / processed_folder_name / "fadeaway_analysis.csv"
+    outfile.parent.mkdir(parents=True, exist_ok=True)
+    result_df.to_csv(outfile, index=True)
+
     print(result_df)
+    print(f"Written to CSV at {outfile}.")
 
 #####################################
 # Main Execution
