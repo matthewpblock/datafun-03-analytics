@@ -91,7 +91,7 @@ def main():
     """
     txt_url = 'https://courses.cs.duke.edu/spring00/cps108/code/swing/SwingSet/Constitution.txt'
     logger.info("Starting text fetch demonstration...")
-    fetch_txt_file("data", "consitution.txt", txt_url)
+    fetch_txt_file("data", "constitution.txt", txt_url)
 
 #####################################
 # Conditional Execution
