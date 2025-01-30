@@ -1,6 +1,6 @@
 """
-This example file fetches a CSV file from the web 
-and saves it to a local file named shots_raw.csv in a folder named example_data.
+This file fetches a CSV file from the web 
+and saves it to a local file named shots_raw.csv in a folder named data.
 """
 
 #####################################
@@ -86,7 +86,7 @@ def main():
     """
     Main function to demonstrate fetching CSV data.
     """
-    logger.info("Starting CSV fetch demonstration...")
+    logger.info("Starting CSV fetch...")
     fetch_csv_file("data", "shots_raw.csv", "https://raw.githubusercontent.com/nathanbraun/code-basketball-files/c2ed77666b3a17ccb33d895e0f0c48692f8aa64f/data/shots.csv")
 
 #####################################
@@ -96,4 +96,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: Run this script to ensure all functions work as intended.

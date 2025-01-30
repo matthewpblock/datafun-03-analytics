@@ -1,5 +1,5 @@
 """
-Process an Excel file to count occurrences of a specific word in a column.
+Process an Excel file to count occurrences the day of the year (i.e. birthdates).
 
 """
 
@@ -8,9 +8,6 @@ import pathlib
 import datetime as dt
 
 # Import from external packages
-import openpyxl
-from openpyxl.chart import BarChart, Reference
-from openpyxl.chart.axis import DateAxis
 import pandas as pd
 
 # Import from local project modules

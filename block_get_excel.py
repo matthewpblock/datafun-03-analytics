@@ -1,9 +1,6 @@
 """
 This example file fetches an Excel file from the web 
 and saves it to a local file named feedback.xlsx in a folder named example_data.
-
-Please save a copy of the provided utils_logger.py file 
-in the same folder as this file.
 """
 
 #####################################
@@ -100,4 +97,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: Run this script to ensure all functions work as intended.

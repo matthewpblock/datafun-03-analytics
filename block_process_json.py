@@ -1,5 +1,5 @@
 """
-Process an text file to count occurrences each part of speech in the text.
+Process a json file to render a histogram of player heights and export as a jpg file.
 
 """
 

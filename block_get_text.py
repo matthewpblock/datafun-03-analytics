@@ -1,9 +1,5 @@
 """
-This example file fetches a text file of Romeo and Juliet from the web 
-and saves it to a local file named romeo.txt in a folder named example_data.
-
-Please save a copy of the provided utils_logger.py file 
-in the same folder as this file.
+This file fetches a text file from the web and saves it to a local file named constitution.txt in a folder named data.
 """
 
 #####################################
@@ -100,4 +96,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: Run this as a script to test that all functions work as intended.
