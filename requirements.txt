@@ -197,7 +197,6 @@ seaborn
 # ADDED FOR PROJECT
 # ======================================================
 requests
-gdown
 pandas
 spacy
-openpyxl
+matplotlib

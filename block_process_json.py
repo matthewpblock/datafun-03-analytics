@@ -5,12 +5,11 @@ Process a json file to render a histogram of player heights and export as a jpg 
 
 # Import from Python Standard Library
 import pathlib
+import json
 
 # Import from external packages
 import pandas as pd
-import json
 import matplotlib.pyplot as plt
-import numpy as np
 
 # Import from local project modules
 from utils_logger import logger
