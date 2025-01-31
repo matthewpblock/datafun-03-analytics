@@ -275,3 +275,7 @@
 2025-01-29 20:42:08.015 | INFO     | __main__:<module>:84 - Starting JSON processing...
 2025-01-29 20:42:08.019 | INFO     | __main__:process_json_file:77 - Processed JSON file: example_data\astros.json, Results saved to: example_processed\json_astronauts_by_craft.txt
 2025-01-29 20:42:08.022 | INFO     | __main__:<module>:86 - JSON processing complete.
+2025-01-29 20:46:24.677 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-29 20:46:24.684 | INFO     | __main__:<module>:70 - Starting CSV processing...
+2025-01-30 15:34:51.728 | INFO     | __main__:process_json_file:63 - Heights histogram saved as jpg at c:\Projects\MS in Data Analytics\datafun-03-analytics\data_processed\player_height_histogram.jpg.
+2025-01-30 15:34:51.738 | INFO     | __main__:<module>:72 - CSV processing complete.
